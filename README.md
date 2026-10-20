@@ -14,7 +14,7 @@
 
 ## :ocean: Overview
 
-PAKSEN2 brought together Sentinel-2 imagery of selected water resources in Pakistan for water-body classification and segmentation research. Our IBCAST paper introduced the dataset and compareD classical machine learning, ResNet50, and an attention-based model for water-body analysis.
+PAKSEN2 brought together Sentinel-2 imagery of selected water resources in Pakistan for water-body classification and segmentation research. Our IBCAST paper introduced the dataset and compared classical machine learning, ResNet50, and an attention-based model for water-body analysis.
 
 This repository provides the **ResNet50 RGB implementation** associated with that research. It is a fork of [the original RGB code repository](https://github.com/rafiamalik12/Fine_Tuning_ResNet50_on_PAKSEN2_RGB), with documentation connecting the code to the published study.
 

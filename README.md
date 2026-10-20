@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🛰️ PAKSEN2 Water Body Classification
+# PAKSEN2 Water Body Classification
 ### ResNet50 RGB Implementation and Published Research
 
 **Sentinel-2 imagery | Water/Non-water classification | Pakistan**
@@ -12,7 +12,7 @@
 **Rafia Malik | Muhammad Shahzad | Shahrukh Malik**
 </div>
 
-## 🌊 Overview
+## :ocean: Overview
 
 PAKSEN2 brought together Sentinel-2 imagery of selected water resources in Pakistan for water-body classification and segmentation research. Our IBCAST paper introduced the dataset and compareD classical machine learning, ResNet50, and an attention-based model for water-body analysis.
 
@@ -20,7 +20,7 @@ This repository provides the **ResNet50 RGB implementation** associated with tha
 
 > **Repository scope:** the paper’s ResNet50 and attention-based experiments use the **13-band PAKSEN2-ALL** dataset. The scripts here take **three-channel RGB** images and use different training settings. The published 81% ResNet50 accuracy is not a measured result from this RGB fork.
 
-## 🗺️ The PAKSEN2 dataset
+## :floppy_disk: The PAKSEN2 dataset
 
 The study selected six Sentinel-2 tiles covering water resources across Pakistan, including Warsak Dam, Gomal Zam Dam, Gwadar Beach, Rawal Dam, Sindhani Barrage, and Manchar Lake. Images were selected across seasons with reported cloud cover below 2%.
 
@@ -56,7 +56,7 @@ The paper describes the following preparation process:
 
 [Data Processing and Labelling Pipeline](assets/Pakistan%20Water%20Bodies%20Dataset%20Workflow.png)
 
-## 🧪 Methods in the published study
+## :hammer_and_wrench: Methods in the published study
 
 <div align="center">
 <img src="assets/paper_method_pipeline.png" width="420" alt="Original paper Figure 3 showing the PAKSEN2-ALL ResNet50 and ViT route and PAKSEN2-RGB GBC and RF route">
@@ -73,7 +73,7 @@ The paper describes the following preparation process:
 
 The paper calls its attention-based model “ViT”; Table IV specifies the checkpoint `microsoft/swin-tiny-patch4-window7-224`. This page retains the paper’s result label and states the checkpoint explicitly.
 
-## 📊 Results reported in the paper
+## :bar_chart: Results reported in the paper
 
 [Original paper Figure 4 comparing the reported test accuracies](assets/paper_results.png)
 
@@ -98,7 +98,7 @@ Source: Tables V–VI. These are **published results**, not rerun measurements.
 | `src/train_ResNet50_classifer_on_PAKSEN2_RGB.py/` | Python script to score trained Resnt50 on RGB input |
 | `assets/` | Images, Pipelines |
 
-## 📚 Citation
+## :open_book: Citation
 
 If you use PAKSEN2 or build on the associated study, please cite:
 

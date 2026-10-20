@@ -93,7 +93,7 @@ Source: Tables V–VI. These are **published results**, not rerun measurements.
 | `src/__config__.py` | python script to load config.yml |
 | `src/__imports__.py` | python script to load all required libraries |
 | `utilities/config.yml` | contains parameter descriptions |
-| `src/requirements.txt` | python modules and their versions; screenshot of used python environment |
+| `requirements.txt` | python modules and their versions; screenshot of used python environment |
 | `src/test_ResNet50_classifer_on_PAKSEN2_RGB.py/` | Python script to train Resnt50 on RGB input |
 | `src/train_ResNet50_classifer_on_PAKSEN2_RGB.py/` | Python script to score trained Resnt50 on RGB input |
 | `assets/` | Images, Pipelines |
